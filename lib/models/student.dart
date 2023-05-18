@@ -1,0 +1,114 @@
+class Student {
+  // ignore: non_constant_identifier_names
+  String nu_id = "";
+  String firstName = "";
+  String lastName = "";
+  String contact = "";
+  String email = "";
+  String password = "";
+  String guardianFullName = "";
+  String guardianContact = "";
+  String address = "";
+  String accountNo = "";
+  String balance = "0";
+
+  Student(
+      this.nu_id,
+      this.accountNo,
+      this.balance,
+      this.contact,
+      this.email,
+      this.firstName,
+      this.lastName,
+      this.guardianContact,
+      this.guardianFullName,
+      this.address,
+      this.password);
+  String getNu_id() {
+    return nu_id;
+  }
+
+  void setNu_id(String nuId) {
+    nu_id = nuId;
+  }
+
+  String getFirstName() {
+    return firstName;
+  }
+
+  void setFirstName(String firstName) {
+    this.firstName = firstName;
+  }
+
+  String getLastName() {
+    return lastName;
+  }
+
+  void setLastName(String lastName) {
+    this.lastName = lastName;
+  }
+
+  String getContact() {
+    return contact;
+  }
+
+  void setContact(String contact) {
+    this.contact = contact;
+  }
+
+  String getEmail() {
+    return email;
+  }
+
+  void setEmail(String email) {
+    this.email = email;
+  }
+
+  String getPassword() {
+    return password;
+  }
+
+  void setPassword(String password) {
+    this.password = password;
+  }
+
+  String getGuardianFullName() {
+    return guardianFullName;
+  }
+
+  void setGuardianFullName(String guardianFullName) {
+    this.guardianFullName = guardianFullName;
+  }
+
+  String getGuardianContact() {
+    return guardianContact;
+  }
+
+  void setGuardianContact(String guardianContact) {
+    this.guardianContact = guardianContact;
+  }
+
+  String getAddress() {
+    return address;
+  }
+
+  void setAddress(String address) {
+    this.address = address;
+  }
+
+  String getAccountNo() {
+    return accountNo;
+  }
+
+  void setAccountNo(String accountNo) {
+    this.accountNo = accountNo;
+  }
+
+  String getBalance() {
+    return balance;
+  }
+
+  void setBalance(String balance) {
+    this.balance = balance;
+  }
+}
